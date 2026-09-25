@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   form?.addEventListener('submit', event => {
     event.preventDefault();
     const message = document.getElementById('formMessage');
-    if (message) message.innerHTML = 'Newsletter signup is not live yet. Please contact <a href="mailto:admin@videonautics.shop">admin@videonautics.shop</a>.';
+    if (message) message.innerHTML = 'Newsletter signup is not live yet. Please contact <a href="mailto:admin@videonautics.space">admin@videonautics.space</a>.';
   });
 });
 
